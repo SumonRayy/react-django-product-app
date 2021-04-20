@@ -1,38 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 .App {
   text-align: center;
+  color: rgb(201, 201, 201);
+  min-height: auto;
+  font-family: "Quicksand", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* For Navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #200020;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-title {
+  font-size: 30px;
+  text-align: center;
+  padding: 14px 16px;
+  color: #f2f2f2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* For Card */
+
+.card-container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-card-container {
+  margin-right: 30px;
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+.card {
+  margin: 30px 20px 30px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  color: #200020;
+  background-color: #f2f2f2;
+}
+
+.card h2 {
+  padding: 4px 8px;
+  font-weight: 500;
+}
+
+/* For Product Viewer */
+
+.product-container {
+  margin: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 1px 8px 8px 1px rgba(0, 0, 0, 0.2);
+  max-width: 65rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  justify-content: space-between;
+  border-radius: 0.5em;
+  padding: 0 20px 0 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.product img {
+  width: 75px;
+  height: 75px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product button {
+  color: #f2f2f2;
+  background-color: #9000b4;
+  border: none;
+  height: 3em;
+  width: 7em;
+  padding: 8px;
+  border-radius: 0.2em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.product-typo {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.product-typo h2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 20em;
 }
