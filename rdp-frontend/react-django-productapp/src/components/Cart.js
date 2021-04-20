@@ -5,7 +5,7 @@ function Cart() {
     return (
         <div className="card">
             <h2>Cart</h2>
-            <img src={cart}/>
+            <img src={cart} alt='cart-img'/>
         </div>
     )
 }

@@ -11,7 +11,7 @@ const data = {
         price: 100000,
         description: "Some Random Info about the Product",
         instock: true,
-        image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-black-select-201809"
+        image: apple
     },
     {id: '2',
         title: 'Realme Narzo',

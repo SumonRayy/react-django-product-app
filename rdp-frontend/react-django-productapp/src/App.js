@@ -12,10 +12,8 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        {/* <Card />       */}
         <div className="card-container">
           <Main products={products} />
-          {console.log(products)}
           <div className="vertical-card-container">
             <Cart />
             <About />
