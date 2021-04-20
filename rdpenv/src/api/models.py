@@ -20,4 +20,5 @@ class Products(models.Model):
     brand_Name = models.CharField(max_length=9, choices=brand_choices, default="APPLE")
     description = models.TextField(blank=True, null=True)
     price = models.DecimalField(decimal_places=2, max_digits=10000)
+    image_URL = models.CharField(max_length=240, default="https://i.imgur.com/rQNuq0c.jpg")
     in_Stock = models.BooleanField(default=True)
