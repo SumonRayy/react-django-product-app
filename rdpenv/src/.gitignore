@@ -1,0 +1,5 @@
+db.sqlite3
+
+./api/__pycache__/
+
+./react_django_productapp/__pycache__/
