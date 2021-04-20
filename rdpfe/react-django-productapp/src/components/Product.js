@@ -1,11 +1,6 @@
 import React from 'react'
 
-function Product({product}) {
-
-    function onAdd() {
-        console.log('added');
-    }
-
+function Product({onAdd, product}) {
     return (
         <div className='product'>
             <img src={product.image} alt={product.title} />
