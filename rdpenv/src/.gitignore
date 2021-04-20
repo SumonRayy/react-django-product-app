@@ -1,5 +1,7 @@
 db.sqlite3
 
+api/migrations/*
+
 ./api/__pycache__/
 
 ./react_django_productapp/__pycache__/
