@@ -37,7 +37,7 @@ function Cart(props) {
                                 </button>
                             </div>
                             <div className='qty'>
-                                {item.qty} x ₹ {item.price.toFixed(2)}
+                                {item.qty} x ₹ {item.price}
                             </div>
                         </div>
                     ))}
@@ -46,19 +46,19 @@ function Cart(props) {
                         <hr></hr>
                         <div className="row">
                             <div className="col-2">Items Price</div>
-                            <div className="col-1 text-right">${itemsPrice.toFixed(2)}</div>
+                            <div className="col-1 text-right">₹{itemsPrice}</div>
                         </div>
                         <div className="row">
                             <div className="col-2">Tax Price</div>
-                            <div className="col-1 text-right">${taxPrice.toFixed(2)}</div>
+                            <div className="col-1 text-right">₹{taxPrice}</div>
                         </div>
                         <div className="row">
                             <div className="col-2">Shipping Price</div>
-                            <div className="col-1 text-right">${shippingPrice.toFixed(2)}</div>
+                            <div className="col-1 text-right">₹{shippingPrice}</div>
                         </div>
                         <div className="row">
                             <div className="col-2"><strong>Total Price</strong></div>
-                            <div className="col-1 text-right"><strong>${totalPrice.toFixed(2)}</strong></div>
+                            <div className="col-1 text-right"><strong>₹{totalPrice}</strong></div>
                         </div>
                         <hr/>
                         <div className='rowcenter'>
