@@ -4,3 +4,5 @@ rdpenv/Include/
 rdpenv/Lib/*
 
 rdpenv/Scripts/*
+
+rdpenv/src/api/__pycache__/
